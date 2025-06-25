@@ -14,6 +14,43 @@ This project implements a semi-supervised learning approach to predict software 
 
 ---
 
+## 🧱 System Architecture
+
+The following pipeline summarizes the semi-supervised defect prediction architecture:
+
+<📄 Data Input
+   │
+   ▼
+🧪 Preprocessing
+(StandardScaler + SMOTE)
+   │
+   ▼
+📊 Feature Selection
+(Random Forest Feature Importance)
+   │
+   ▼
+🔁 Iterative Training Loop
+   │
+   ├──► Train Ensemble Model
+   │       ├── Random Forest
+   │       ├── XGBoost
+   │       ├── SVM
+   │       └── Logistic Regression
+   │
+   ├──► Predict Unlabeled Samples
+   ├──► Select High-Confidence Pseudo Labels (Threshold: 0.80–0.90)
+   └──► Augment Training Set
+   │
+   ▼
+⏹ Early Stopping
+(Monitor Validation F1 Stagnation)
+   │
+   ▼
+✅ Final Evaluation
+(Accuracy, Precision, Recall, F1-Score)
+>
+
+
 ## 📊 Results
 
 - Explored labeled data ratios from **10% to 90%**.
