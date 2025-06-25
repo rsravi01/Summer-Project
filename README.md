@@ -49,6 +49,12 @@ The following pipeline summarizes the semi-supervised defect prediction architec
 ✅ Final Evaluation
 (Accuracy, Precision, Recall, F1-Score)
 >
+![SummerProject](https://github.com/user-attachments/assets/97ebaa9e-983c-44f5-8d5d-6148867102f3)
+![SummerProject](https://github.com/user-attachments/assets/97ebaa9e-983c-44f5-8d5d-6148867102f3)
+![SummerProject](https://github.com/user-attachments/assets/894fe6f8-3778-4890-8941-129ad35d6d71)
+![SummerProject](https://github.com/user-attachments/assets/894fe6f8-3778-4890-8941-129ad35d6d71)
+
+
 
 
 ## 📊 Results
